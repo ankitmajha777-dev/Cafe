@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew & Bliss Coffee House – Good Coffee. Good Vibes.</title>
+    <meta name="description" content="Freshly brewed coffee, handcrafted drinks and delicious food made to brighten your day at Brew & Bliss Coffee House. Order online, reserve a table, and visit us." />
+    <meta property="og:title" content="Brew & Bliss Coffee House – Good Coffee. Good Vibes." />
+    <meta property="og:description" content="Freshly brewed coffee, handcrafted drinks and delicious food made to brighten your day at Brew & Bliss Coffee House." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Brew & Bliss Coffee House" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Brew & Bliss Coffee House – Good Coffee. Good Vibes." />
+    <meta name="twitter:description" content="Freshly brewed coffee, handcrafted drinks and delicious food made to brighten your day." />
+    
+    <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Restaurant / Cafe Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Brew & Bliss Coffee House",
+      "image": "/src/assets/images/hero_barista_craft_1790846338286.jpg",
+      "description": "Freshly brewed artisan coffee, handcrafted drinks, fresh pastries, and warm café atmosphere.",
+      "servesCuisine": "Coffee, Espresso, Pastries, Breakfast, Sandwiches, Desserts",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "742 Evergreen Row, Downtown Artisan District",
+        "addressLocality": "Portland",
+        "addressRegion": "OR",
+        "postalCode": "97205",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-503-555-0198",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "06:30",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "20:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#12100E] text-[#EDE7DE] selection:bg-[#C9A87C] selection:text-[#12100E] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

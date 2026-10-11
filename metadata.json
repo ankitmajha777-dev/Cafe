@@ -1,0 +1,6 @@
+{
+  "name": "Brew & Bliss Coffee House – Good Coffee. Good Vibes.",
+  "description": "Freshly brewed artisan coffee, handcrafted drinks, and warm café moments at Brew & Bliss Coffee House.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
